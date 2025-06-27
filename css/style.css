@@ -1,4 +1,37 @@
 
+
+.nuevo {
+  background-color: #28a745;
+  color: white;
+  font-size: 0.8rem;
+}
+.camion {
+  background-color: rgb(13, 202, 240);
+}
+.descuento1 {
+  background-color: rgb(25, 135, 84);
+}
+.contenedor-vendedor {
+  background-color: rgb(248, 249, 250);
+}
+.card-title {
+  min-height: 48px;
+}
+.card-img-top {
+  height: 300px;
+  object-fit: contain;
+}
+.contenedor-imagenesChicas {
+  width: 100%;
+  height: 50px;
+}
+.imagenes-audifinos {
+  width: 60px; /* Tamaño pequeño */
+  height: 60px;
+  object-fit: cover; /* Ajuste de imagen */
+  border-radius: 5px; /* Bordes suaves */
+  border: 2px solid transparent;
+ }
 body {
     font-family: var(--roboto);
 }    
@@ -49,6 +82,7 @@ span:hover{
 
 .texto-cartas {
     font-size: 12px;
+
 }
 
 .texto-titulo {
