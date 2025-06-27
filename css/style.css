@@ -1,22 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-:root {
-  --amarillo: #eac926;
-  --azul: #03264c;
-  --celeste: #1259c3;
-  --blanco:#f5f0ff;
-  --morado:#6c2bd9;
-  --gris-oscuro: #666;
-  --gris-claro: #ebebeb;
-  --verde: #39b54a;
 
-  /* tipografia */
-  --roboto: "Roboto", sans-serif;
 
-  /* tamaños de fuentes */
-  --texto: 12px;
-  --titulares: 24px;
-
-  --price: 18px;
-  --discount: 1rem;
-  --description: 1rem;
+body{
+    font-family: var(--roboto);
+    
 }
+
+/* Navbar*/
+
+.nav-logo{
+    width: 120px;
+}
+.bg-custom{
+    background-color: var(--amarillo);
+}
+span{
+    color: var(--gris-oscuro);
+}
+span:hover{
+    color: var(--azul);
+}
+.barra-busqueda {
+      background-color: #ecc92b; /* amarillo */
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .input-con-icono {
+      position: relative;
+      width: 300px;
+    }
+
+    .input-con-icono input {
+      width: 100%;
+      padding: 10px 40px 10px 15px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .input-con-icono .fa-search {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: green;
+      
+    }
