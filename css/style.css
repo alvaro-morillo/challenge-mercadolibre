@@ -1,22 +1,46 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-:root {
-  --amarillo: #eac926;
-  --azul: #03264c;
-  --celeste: #1259c3;
-  --blanco:#f5f0ff;
-  --morado:#6c2bd9;
-  --gris-oscuro: #666;
-  --gris-claro: #ebebeb;
-  --verde: #39b54a;
-
-  /* tipografia */
-  --roboto: "Roboto", sans-serif;
-
-  /* tamaños de fuentes */
-  --texto: 12px;
-  --titulares: 24px;
-
-  --price: 18px;
-  --discount: 1rem;
-  --description: 1rem;
+.seccion-categorias {
+    padding: 40px  0;
+}
+.categoria-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+}
+.categoria-nombre {
+    font-size: var(--texto);
+    color: var(--azul);
+    }
+.etiqueta-descuento {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: var(--verde);
+      color: var(--blanco);
+      font-size: 0.8rem;
+      font-weight: bold;
+      padding: 3px 6px;
+      border-radius: 5px;
+ }
+.Precios1{
+    text-decoration: line-through;
+    font-size: var(--texto);
+}
+.Precios{
+font-size: var(--texto);
+}
+.Envios{
+    font-size: var(--texto);
+    color: var(--verde);
+    font-weight: bold;
+}
+.card-ofertas{
+    position: relative;
+}
+.categoria-img {
+    height: 60px;
+    margin-bottom: 10px;
+    }
+.categoria-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
