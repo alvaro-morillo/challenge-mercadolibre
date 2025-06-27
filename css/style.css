@@ -1,3 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --amarillo: #eac926;
+  --azul: #03264c;
+  --celeste: #1259c3;
+  --blanco:#f5f0ff;
+  --morado:#6c2bd9;
+  --gris-oscuro: #666;
+  --gris-claro: #ebebeb;
+  --verde: #39b54a;
+
+  /* tipografia */
+  --roboto: "Roboto", sans-serif;
+
+  /* tamaños de fuentes */
+  --texto: 12px;
+  --titulares: 24px;
+
+  --price: 18px;
+  --discount: 1rem;
+  --description: 1rem;
+}
 
 .seccion-categorias {
     padding: 40px  0;
@@ -45,7 +67,7 @@ font-size: var(--texto);
 .categoria-card:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 
-
+}
 
 .nuevo {
   background-color: #28a745;
