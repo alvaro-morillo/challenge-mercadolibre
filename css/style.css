@@ -1,11 +1,7 @@
 
-
-body{
+body {
     font-family: var(--roboto);
-    
-}
-
-/* Navbar*/
+}    
 
 .nav-logo{
     width: 120px;
@@ -20,7 +16,7 @@ span:hover{
     color: var(--azul);
 }
 .barra-busqueda {
-      background-color: #ecc92b; /* amarillo */
+      background-color: #ecc92b; 
       padding: 20px;
       display: flex;
       justify-content: center;
@@ -30,7 +26,6 @@ span:hover{
       position: relative;
       width: 300px;
     }
-
     .input-con-icono input {
       width: 100%;
       padding: 10px 40px 10px 15px;
@@ -47,3 +42,15 @@ span:hover{
       color: green;
       
     }
+.imagen-footer {
+    width: 100%;
+    height: 100%;
+}
+
+.texto-cartas {
+    font-size: 12px;
+}
+
+.texto-titulo {
+    font-size: 24px;
+}
